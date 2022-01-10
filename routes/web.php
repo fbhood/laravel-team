@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::get('/contacts', function () {
     return view('contacts');
 })->name('contacts');
-Route::get('/about-me', function () {
+
+Route::get('/about', function () {
     return view('about');
 })->name('about');
